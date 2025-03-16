@@ -1,9 +1,9 @@
 package lab;
 
-class Student {
+class Student1 {
   private String name,section;
   private int roll_no;
-  Student() {
+  Student1() {
     this.name = "No Name";
     this.section = "No Section";
     this.roll_no = 0;
@@ -21,12 +21,12 @@ class Student {
   public String getSection() { return section; }
 }
 
-class Course {
+class Course1 {
 
   private String course_name;
   private int course_code, credits;
 
-  Course() {
+  Course1() {
     this.course_name = "No Course";
     this.course_code = 0;
     this.credits = 0;
@@ -45,12 +45,12 @@ class Course {
 
 public class prog1 {
   public static void main(String[] args) {
-    Student student = new Student();
+    Student1 student = new Student1();
     student.setName("Aabish Malik");
     student.setRoll_no(57);
     student.setSection("A1");
 
-    Course course = new Course();
+    Course1 course = new Course1();
     course.setCourse_name(
         "Introduction to object oriented programming using Java");
     course.setCourse_code(411);

@@ -1,5 +1,7 @@
 package programs;
 
+import java.util.ArrayList;
+
 public class LCM{
     public static void main(String[] args) {
         
@@ -9,6 +11,7 @@ public class LCM{
     public static int lcm(int a, int b){
         int m = Math.max(a, b);
         int n = Math.min(a, b);
+
 
         
 
