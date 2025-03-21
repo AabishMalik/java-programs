@@ -18,13 +18,13 @@ class Student3 {
     public int getRoll_no() { return roll_no; }
     public String getSection() { return section; }
 
-    public void updateStudent(String name, int roll_no, String section) {
+    public void update(String name, int roll_no, String section) {
         this.name = name;
         this.roll_no = roll_no;
         this.section = section;
     }
 
-    public void deleteStudent() {
+    public void delete() {
         this.name = null;
         this.roll_no = 0;
         this.section = null;
@@ -40,14 +40,14 @@ public class prog3 {
         System.out.println("Roll No: " + student.getRoll_no());
         System.out.println("Section: " + student.getSection());
 
-        student.updateStudent("Aabish", 57, "A1");
+        student.update("Aabish", 57, "A1");
         System.out.println("Student details after update:");
         System.out.println("Name: " + student.getName());   
         System.out.println("Roll No: " + student.getRoll_no());
         System.out.println("Section: " + student.getSection());
         
 
-        student.deleteStudent();
+        student.delete();
         System.out.println("Student details after delete:");
         System.out.println("Name: " + student.getName());
         System.out.println("Roll No: " + student.getRoll_no());
