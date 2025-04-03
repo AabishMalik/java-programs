@@ -9,7 +9,7 @@ public class ReverseVowels {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in)
+        Scanner sc = new Scanner(System.in);
 
         String s = sc.nextLine();
         sc.close();
