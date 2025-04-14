@@ -1,6 +1,7 @@
 package regular.inheritance;
 
 class Parent{
+    final int a = 5;
     Parent(){
         System.out.println("Parent class constructor");
     }
@@ -12,6 +13,7 @@ class Parent{
 
 
 class Child extends Parent{
+    final int a = 10;
     Child(){
         System.out.println("Child class constructor");
     }

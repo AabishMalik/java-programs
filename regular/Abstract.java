@@ -5,6 +5,13 @@ abstract class AbstractClass {
     void concreteMethod() {
         System.out.println("Concrete Method");
     }
+    static void staticMethod() {
+		System.out.println("Static Method");
+    }
+
+    static {
+	System.out.println("ABC");
+    }
 }
 
 
